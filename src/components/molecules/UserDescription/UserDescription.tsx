@@ -12,7 +12,7 @@ export function UserDescription({ user }: Props) {
     return (
         <div className={styles.module}>
             <p className={styles.avatar}>
-                <img src={user.avatar_url} width="230" />
+                <img src={user.avatar_url} alt="avater" width="230" />
             </p>
             <div className={styles.description}>
                 <h1>{user.name}</h1>
